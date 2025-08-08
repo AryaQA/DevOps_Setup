@@ -1,0 +1,62 @@
+Strings
+--------
+
+1. String---Class | Use to save sequence of characters
+2. When you create any variable String variabe---> an object in string class
+3. String immutable (once it created it can not be changed)
+4. It is non primitive data type. it is an object of java.lang.String
+
+Ways to create Strings
+-----------------------
+1. Using String literal
+
+ String s1 = "Hello";
+ String s2 = "World";
+
+2. Using the new keyword
+   This always create a new object in the heap memory
+
+    String s3 = new String("Hello");( two objects created)--Heap and one is in SCP
+
+-------------------------
+
+1. Length()----Return the length
+                  0 1 2 3 4 
+    "Hello" ----> H E L L O
+2. charAt(int index)---------->charAt(0)---> H
+
+3. substring(int start, int end)--->sunstring(2,4);
+
+4.toLowerCase()-->HELLO--->hello
+
+5.toUpperCase()--->hello--->HELLO or heLLO---->HELLO
+
+6.equals(String S)---Compares values-->str1.equals("Str2"); extact same--True(case) heLLO = HELLO--false
+
+7.equalsIgnorecase(String S)--->Comparees---->HeLLO == hello ---true
+
+8. contains(charsequesce s)---true/false
+
+9. replace(char old , char new)----> old to new char
+
+10. index of (char)---Return index of first occurrence
+
+11. trim()--->removing leading and trailing space -->   Arya   ===>Arya
+
+12. split(string regex) --->Split string into array
+
+13 concat--> String1 + String2 | str1.concat(str2)
+
+ ==--false X
+----------------------------------------------------
+mutable
+-------
+Stringbuffer(slower, syncronize) and Stringbuilder(faster, NOt syncronize)
+
+
+StringBuffer obj = new StringBuffer();
+
+
+
+
+
